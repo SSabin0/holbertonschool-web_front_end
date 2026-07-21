@@ -105,6 +105,10 @@ body {
     text-align: var(--section-footer-align);
 }
 
+.footer {
+    padding: var(--footer-padding);
+}
+
 a:link {
     color: var(--color-black);
     text-decoration: none;
