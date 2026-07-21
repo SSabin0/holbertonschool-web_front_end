@@ -22,12 +22,13 @@ h6 {
   font-family: var(--font-family-title);
 }
 
-a {
-    color: #161616;
+body {
+    color: var(--color-black);
+    font-family: var(--font-family-base);
 }
 
-body {
-    font-family: var(--font-family-base);
+a {
+    color: var(--color-black);
 }
 
 .visually-hidden {
