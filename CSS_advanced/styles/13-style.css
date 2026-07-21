@@ -73,23 +73,19 @@ body {
   text-align: var(--section-header-align);
 }
 
-/* Update anchor rule to target only elements with a hyperlink */
-a[href] {
-  color: var(--color-black);
-  text-decoration: none;
+a:link {
+    color: var(--color-black);
+    text-decoration: none;
 }
 
-/* Visited state */
-a[href]:visited {
-  font-style: italic;
+a:visited {
+    font-style: italic;
 }
 
-/* Hover state */
-a[href]:hover {
-  text-decoration: underline;
+a:hover {
+    text-decoration: underline;
 }
 
-/* Active state */
-a[href]:active {
-  background-color: var(--color-light-grey);
+a:active {
+    background-color: var(--color-light-grey);
 }
