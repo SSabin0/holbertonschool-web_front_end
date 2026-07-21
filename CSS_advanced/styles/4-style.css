@@ -22,7 +22,11 @@ h6 {
   font-family: var(--font-family-title);
 }
 
-body, a {
+a {
+    color: #161616;
+}
+
+body {
     font-family: var(--font-family-base);
 }
 
